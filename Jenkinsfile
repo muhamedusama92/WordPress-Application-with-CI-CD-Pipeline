@@ -13,7 +13,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building Docker image...'
-                sh 'docker-compose build'
+                sh 'docker build -t $DOCKER_IMAGE .'
             }
         }
         stage('Test') {
