@@ -18,7 +18,7 @@ services:
     restart: always
     ports:
       - "8000:80"
-    container_name: wordpress-container80
+    container_name: wordpress-container404
     environment:
       WORDPRESS_DB_HOST: mysql_database:3306
       WORDPRESS_DB_USER: wp_user
