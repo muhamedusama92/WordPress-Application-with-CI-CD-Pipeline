@@ -30,8 +30,8 @@ This project demonstrates building and deploying a WordPress application using D
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/muhamedusama92/wordpress-redis-app.git
-cd wordpress-redis-app
+git clone https://github.com/muhamedusama92/WordPress-Application-with-CI-CD-Pipeline.git
+cd WordPress-Application-with-CI-CD-Pipeline
 ```
 
 ### 2. Configure Environment Variables
